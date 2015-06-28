@@ -64,9 +64,6 @@
                     animated:NO
                   completion:nil];
     
-    if (self.pageCount == 1) {
-        self.view.userInteractionEnabled = NO;
-    }
 }
 
 #pragma mark - UIPageViewControllerDataSource
